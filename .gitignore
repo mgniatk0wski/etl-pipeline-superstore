@@ -2,4 +2,4 @@ venv/
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
-data/raw_data/*.csv
+# data/raw_data/*.csv
