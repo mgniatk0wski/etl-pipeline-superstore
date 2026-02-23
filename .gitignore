@@ -1,5 +1,13 @@
+# Środowisko i system
 venv/
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
-# data/raw_data/*.csv
+
+# Dane (Ignorujemy WSZYSTKIE pliki z danymi, surowe i wyczyszczone)
+data/**/*.csv
+data/**/*.xlsx
+*.csv
+
+# Pliki konfiguracyjne z hasłami (dobry nawyk na przyszłość)
+.env
