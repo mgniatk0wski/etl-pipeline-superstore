@@ -31,7 +31,7 @@ psycopg2-binary | Sterownik bazy PostgreSQL
 Jupyter Notebook | Środowisko do wstępnej analizy i testów
 
 Struktura projektu
-
+<pre>
 ├── data/
 │   ├── processed_data/ → superstore_processed.csv (ignorowane w git)
 │   └── raw_data/ → Sample_Superstore.csv (ignorowane w git)
@@ -43,7 +43,7 @@ Struktura projektu
 ├── docker-compose.yaml → konfiguracja bazy
 ├── requirements.txt → pakiety pythona
 └── .gitignore → ignorowanie danych i środowiska
-
+</pre>
 Jak uruchomić
 
 docker-compose up -d
@@ -94,7 +94,7 @@ psycopg2-binary | PostgreSQL database adapter
 Jupyter Notebook | Environment for initial analysis and testing
 
 Project structure
-
+<pre>
 ├── data/
 │   ├── processed_data/ → superstore_processed.csv (git ignored)
 │   └── raw_data/ → Sample_Superstore.csv (git ignored)
@@ -106,7 +106,7 @@ Project structure
 ├── docker-compose.yaml → database config
 ├── requirements.txt → python packages
 └── .gitignore → ignoring data and env files
-
+</pre>
 How to run
 
 docker-compose up -d
